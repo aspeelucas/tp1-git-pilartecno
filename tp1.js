@@ -20,6 +20,7 @@ function extractValues(data) {
 
 function arrayToLengthCounters(array) {
   // Tu código aquí
+  return Object.fromEntries(array.map(x => [x, x.length]));
 }
 
 /*  
